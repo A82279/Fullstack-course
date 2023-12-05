@@ -10,11 +10,10 @@
   justify-content: space-around;
   max-width: 800px;
   min-width: 550px;
-  flex-wrap: wrap;
 }
 
 .CartList-Container {
-  width: 20%;
+  width: 25%;
   justify-content: center;
   /* border: 1px solid white; */
 }
@@ -81,14 +80,34 @@ img {
 
 .Remove-Button {
   background-color: rgb(190, 0, 0);
-  color: red;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
 }
 
 #Buy-Button {
   background-color: green;
-  
+}
+
+.Form-Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Form-Container form {
+  max-width: 80%;
+  min-width: 50%;
+}
+
+.Form-Container p {
+  color: red;
+}
+
+.Form-Container button {
+  margin: 20px auto;
+}
+
+.Input-Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

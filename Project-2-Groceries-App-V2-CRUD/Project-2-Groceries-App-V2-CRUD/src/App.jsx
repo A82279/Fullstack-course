@@ -3,7 +3,9 @@ import GroceriesApp from "./GroceriesApp";
 
 function App() {
   return (
-    <GroceriesApp />
+    <>
+      <GroceriesApp />
+    </>
   );
 }
 
